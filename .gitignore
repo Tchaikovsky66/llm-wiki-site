@@ -1,0 +1,10 @@
+node_modules/
+public/
+.cache/
+.env
+.DS_Store
+*.log
+
+# Plugin sub-repos: keep code, drop their internal .git
+.quartz/plugins/**/.git/
+.quartz/plugins/**/node_modules/
