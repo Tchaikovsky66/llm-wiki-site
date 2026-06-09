@@ -6,9 +6,10 @@
 #   ~/quartz-wiki/sync.sh ["可选 commit message"]
 #
 # 环境变量:
-#   WIKI_PATH   wiki 源目录（默认: prometheus profile 的 wiki）
-#   GIT_PROXY   git 走的 HTTP 代理（默认: http://127.0.0.1:7897）
-#   ASKPASS     ssh key passphrase 文件（默认: ~/.ssh/llm-wiki-passphrase）
+#   WIKI_PATH       wiki 源目录（默认: prometheus profile 的 wiki）
+#   GIT_PROXY       git 走的 HTTP 代理（默认: http://127.0.0.1:7897）
+#   ASKPASS_FILE    ssh key passphrase 文件（默认: ~/.ssh/llm-wiki-passphrase）
+#   SSH_AUTH_SOCK   现有 ssh-agent socket（默认探测 gnome-keyring）
 #
 # 失败时返回非 0 并打印原因。可重复运行，无变更时优雅跳过。
 
@@ -18,7 +19,7 @@ WIKI_SRC="${WIKI_PATH:-$HOME/.hermes/profiles/prometheus/home/wiki}"
 QUARTZ_DIR="$HOME/quartz-wiki"
 MSG="${1:-sync wiki $(date +%F\ %H:%M)}"
 GIT_PROXY="${GIT_PROXY:-http://127.0.0.1:7897}"
-ASKPASS_FILE="${ASKPASS:-$HOME/.ssh/llm-wiki-passphrase}"
+ASKPASS_FILE="${ASKPASS_FILE:-$HOME/.ssh/llm-wiki-passphrase}"
 SSH_KEY="$HOME/.ssh/id_ed25519"
 
 if [[ ! -d "$WIKI_SRC" ]]; then
@@ -49,12 +50,20 @@ fi
 git -c user.name="Phaedo" -c user.email="phaedo@local.dev" \
     commit -m "$MSG"
 
-# ── ssh-agent: 已加载就复用，否则起一个并 ssh-add（用 askpass 自动喂 passphrase）
-ensure_agent() {
-  if [[ -n "${SSH_AUTH_SOCK:-}" ]] && ssh-add -l >/dev/null 2>&1; then
+# ── 确保 ssh-agent 里有 key
+ensure_key() {
+  # 优先用环境里的 SSH_AUTH_SOCK，否则探测 gnome-keyring 默认 socket
+  if [[ -z "${SSH_AUTH_SOCK:-}" ]]; then
+    if [[ -S "/run/user/$(id -u)/keyring/.ssh" ]]; then
+      export SSH_AUTH_SOCK="/run/user/$(id -u)/keyring/.ssh"
+    else
+      eval "$(ssh-agent -s)" >/dev/null
+    fi
+  fi
+  # 已加载就不重复 add
+  if ssh-add -l 2>/dev/null | grep -q "$(ssh-keygen -lf "$SSH_KEY" | awk '{print $2}')"; then
     return 0
   fi
-  eval "$(ssh-agent -s)" >/dev/null
   if [[ ! -f "$ASKPASS_FILE" ]]; then
     echo "❌ 找不到 passphrase 文件: $ASKPASS_FILE" >&2
     echo "   写入: echo '<your-passphrase>' > $ASKPASS_FILE && chmod 600 $ASKPASS_FILE" >&2
@@ -62,19 +71,16 @@ ensure_agent() {
   fi
   local helper
   helper="$(mktemp)"
-  cat > "$helper" <<EOF
-#!/bin/sh
-cat "$ASKPASS_FILE"
-EOF
+  printf '#!/bin/sh\ncat %q\n' "$ASKPASS_FILE" > "$helper"
   chmod +x "$helper"
-  DISPLAY=:0 SSH_ASKPASS="$helper" SSH_ASKPASS_REQUIRE=force \
+  SSH_ASKPASS="$helper" SSH_ASKPASS_REQUIRE=force timeout 10 \
     ssh-add "$SSH_KEY" </dev/null
   local rc=$?
   rm -f "$helper"
   return $rc
 }
 
-ensure_agent
+ensure_key
 
 # 走代理，避免 GitHub TLS 504
 export https_proxy="$GIT_PROXY"
