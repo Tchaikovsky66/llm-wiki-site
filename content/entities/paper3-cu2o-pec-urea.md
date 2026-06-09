@@ -1,7 +1,7 @@
 ---
 title: "Ternary facet junction Cu₂O photocathode for PEC urea synthesis"
 created: 2025-05-15
-updated: 2025-05-15
+updated: 2026-05-17
 type: entity
 tags: [cu2o, facet-engineering, photocathode, pec-measurement, charge-transfer, band-structure]
 sources: [raw/papers/paper3-ternary-facet-junction-cu2o-photocathode.md]
@@ -32,5 +32,7 @@ sources: [raw/papers/paper3-ternary-facet-junction-cu2o-photocathode.md]
 
 ## Cross-references
 
+- [[co2-nitrate-urea-electrosynthesis]] — CO₂/NO₃⁻ 共还原合成尿素的跨体系概念页
+- [[paper6-p-cu-fe2o3-urea-electrosynthesis]] — P−Cu/Fe₂O₃ 多位点电催化尿素合成
 - [[cu2o-facet-engineering]] — 晶面工程核心概念
 - [[cu2o-morphology-control]] — 形貌调控方法

@@ -1,7 +1,7 @@
 ---
 title: "CuO morphology control for Cu⁰/Cu⁺ interfaces in CO₂RR"
 created: 2025-05-15
-updated: 2025-05-15
+updated: 2026-05-17
 type: entity
 tags: [cuo, morphology-control, cu2o, co2-reduction, nanostructure, facet-engineering]
 sources: [raw/papers/paper2-chen-cuo-morphology-afm-2026.md, raw/papers/paper2-si-cuo-morphology-afm-2026.md]
@@ -36,3 +36,4 @@ sources: [raw/papers/paper2-chen-cuo-morphology-afm-2026.md, raw/papers/paper2-s
 
 - [[cu2o-facet-engineering]] — 相关晶面工程概念
 - [[co2-electroreduction-cu-catalysts]] — Cu 基 CO₂RR 催化剂
+- [[paper5-strain-cu2o-co2rr-ethylene]] — 应变 Cu₂O 通过提高 *CO 覆盖度促进 CO₂RR 制乙烯

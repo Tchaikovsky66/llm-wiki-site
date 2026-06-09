@@ -6,7 +6,7 @@
 
 set -euo pipefail
 
-WIKI_SRC="${WIKI_PATH:-$HOME/wiki}"
+WIKI_SRC="${WIKI_PATH:-$HOME/.hermes/profiles/prometheus/home/wiki}"
 QUARTZ_DIR="$HOME/quartz-wiki"
 MSG="${1:-sync wiki $(date +%F\ %H:%M)}"
 
