@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-06-08 | Total pages: 21
+> Last updated: 2026-06-16 | Total pages: 22
 
 ## Entities
 
@@ -20,6 +20,7 @@
 - [[paper13-cpd-cnt-cu-composite-interface]] — CPD@CNT 改性 Cu 基复合材料，通过 Cu₂O 过渡层/半相干界面实现高强度、高导电和高热稳定 (Ceramics International, 2026)
 - [[paper14-cuo-pani-nitrate-ammonia]] — PANI 修饰 CuO 纳米线阵列表面化学微环境调控，高效电催化 NO₃⁻ 还原制 NH₃ (Appl. Catal. B, 2023)
 - [[paper15-pd-ni5p4-quinoline-hydrogenation-patent]] — Pd/Ni₅P₄ 缺陷纳米片用于酸性条件下喹啉电催化加氢制 THQs (中国专利 CN118854361A, 2024)
+- [[paper16-cnt-cu-composites-review]] — CNTs/Cu 复合材料力学·电学·热学强化机制综述：分散/构型/界面/权衡策略 (J. Mater. Res. Technol., 2024)
 
 ## Concepts
 

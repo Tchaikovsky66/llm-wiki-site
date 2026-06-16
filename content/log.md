@@ -97,3 +97,11 @@
 - Index updated: added Paper 14, Paper 15; refreshed page count to 21
 - Note: Paper 14 SI not provided; patent has no SI equivalent
 
+## [2026-06-16] ingest | CNTs/Cu composites review (J. Mater. Res. Technol., 2024)
+- Source: Yilin Jia et al., J. Mater. Res. Technol. 32 (2024) 1395–1415; DOI 10.1016/j.jmrt.2024.08.172
+- Type: 综述（Review），无新实验数据
+- Raw source captured: raw/papers/paper16-jmrt-2024-cnt-cu-review.md
+- Entity page created: entities/paper16-cnt-cu-composites-review.md
+- Index updated: added Paper 16; refreshed page count to 22
+- Cross-links: [[paper13-cpd-cnt-cu-composite-interface]], [[carbon-nanotubes-in-cu-electrocatalysis]]
+
