@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-06-16 | Total pages: 22
+> Last updated: 2026-07-06 | Total pages: 23
 
 ## Entities
 
@@ -21,6 +21,7 @@
 - [[paper14-cuo-pani-nitrate-ammonia]] — PANI 修饰 CuO 纳米线阵列表面化学微环境调控，高效电催化 NO₃⁻ 还原制 NH₃ (Appl. Catal. B, 2023)
 - [[paper15-pd-ni5p4-quinoline-hydrogenation-patent]] — Pd/Ni₅P₄ 缺陷纳米片用于酸性条件下喹啉电催化加氢制 THQs (中国专利 CN118854361A, 2024)
 - [[paper16-cnt-cu-composites-review]] — CNTs/Cu 复合材料力学·电学·热学强化机制综述：分散/构型/界面/权衡策略 (J. Mater. Res. Technol., 2024)
+- [[paper17-cu2o-facet-pvp-control]] — PVP (Mw 30,000) 选择性吸附调控 Cu₂O 晶面：R=0 cube → R=30 octahedron (J. Mater. Chem., 2009)
 
 ## Concepts
 

@@ -1,10 +1,10 @@
 ---
 title: Cu₂O/CuO 形貌调控
 created: 2025-05-15
-updated: 2026-06-08
+updated: 2026-07-06
 type: concept
 tags: [cu2o, cuo, morphology-control, electrodeposition, nanostructure]
-sources: [raw/papers/paper1-si-appl-catal-b-2026.md, raw/papers/paper2-chen-cuo-morphology-afm-2026.md, raw/papers/paper4-nat-commun-2025.md, raw/papers/paper5-aem-2025-strain-cu2o-co2rr.md, raw/papers/paper7-si-jacs-2026-hydrogen-spillover-raman.md, raw/papers/paper8-advmat-2023-cu-dendrites-plasmonic-her-cu2o.md, raw/papers/paper8-si-advmat-2023-cu-dendrites-plasmonic-her-cu2o.md, raw/papers/paper9-si-acs-mater-lett-2024-ir-clusters-cu2o-n2-photofixation.md, raw/papers/paper11-jacs-2026-cof-cu2o-nitrate-ammonia.md, raw/papers/paper12-afm-2025-cu-cu2o-quinoline-hydrogenation.md, raw/papers/paper13-elsevier-2026-cnt-cu-catalysis.md, raw/papers/paper14-apcatb-2023-cuo-pani-nitrate-ammonia.md]
+sources: [raw/papers/paper1-si-appl-catal-b-2026.md, raw/papers/paper2-chen-cuo-morphology-afm-2026.md, raw/papers/paper4-nat-commun-2025.md, raw/papers/paper5-aem-2025-strain-cu2o-co2rr.md, raw/papers/paper7-si-jacs-2026-hydrogen-spillover-raman.md, raw/papers/paper8-advmat-2023-cu-dendrites-plasmonic-her-cu2o.md, raw/papers/paper8-si-advmat-2023-cu-dendrites-plasmonic-her-cu2o.md, raw/papers/paper9-si-acs-mater-lett-2024-ir-clusters-cu2o-n2-photofixation.md, raw/papers/paper11-jacs-2026-cof-cu2o-nitrate-ammonia.md, raw/papers/paper12-afm-2025-cu-cu2o-quinoline-hydrogenation.md, raw/papers/paper13-elsevier-2026-cnt-cu-catalysis.md, raw/papers/paper14-apcatb-2023-cuo-pani-nitrate-ammonia.md, raw/papers/paper17-jmatchem-2009-cu2o-facet-pvp.md]
 ---
 
 # Cu₂O/CuO 形貌调控
@@ -24,6 +24,7 @@ sources: [raw/papers/paper1-si-appl-catal-b-2026.md, raw/papers/paper2-chen-cuo-
 | 多面体（三元晶面结） | {100}+{110}+{111} | pH 控制沉淀 | Paper 3 |
 | 应变 Cu₂O 立方体 | 以 {100}/{111} 表征为主，表面粗糙化 | Cu₂O 预还原原位重构，调控氧空位/晶格应变 | Paper 5 |
 | 八面体/立方体 Cu₂O 前驱体 | {111}/{100} | CuCl₂ + NaOH + 抗坏血酸；PVP=4 g 得八面体，PVP=0 g 得立方体；RuCl₃ 浸渍后电还原为 Ru₁/Cu(111)/(100) | Paper 7 |
+| Cube→Octahedron 系统演变 | {100}→{111} | CuCl₂·2H₂O (0.01 M, 100 mL) + PVP (Mw 30,000) + NaOH + 抗坏血酸，55 °C 3 h；R=0 cube，R=30 octahedron；R 按 PVP 单体摩尔数/Cu 定义 | Paper 17 |
 | 立方体/截角八面体/八面体 Cu₂O | {100}/{100}+{111}/{111} | CuCl₂ + SDS + NaOH + NH₂OH·HCl；增加 NH₂OH·HCl 由 0.25→0.75→1.25 mL，使形貌从 cube → truncated octahedron → octahedron | Paper 8 |
 | Cu₂O-100 立方体 | {100} | CuCl₂·2H₂O + NaOH + 抗坏血酸，55 ℃水浴反应 | Paper 9 |
 | Cu₂O-111 八面体 | {111} | Cu(CH₃COO)₂ + 高浓度 NaOH + glucose，70 ℃反应；后续可用 NaBH₄ 还原 IrCl₃ 在表面负载 Ir clusters | Paper 9 |
@@ -66,3 +67,4 @@ sources: [raw/papers/paper1-si-appl-catal-b-2026.md, raw/papers/paper2-chen-cuo-
 - [[paper12-cu-cu2o-quinoline-hydrogenation]] — CuO/Cu(OH)₂ 一维前驱体经电化学还原形成 Cu/Cu₂O NWs，用于 quinoline 电氢化
 - [[paper13-cpd-cnt-cu-composite-interface]] — CPD@CNT/Cu 中 CNT 功能化诱导 Cu₂O 过渡层，补充碳纳米材料界面工程路线
 - [[paper14-cuo-pani-nitrate-ammonia]] — CuO NWAs/CF + PANI 后修饰，NO₃RR 下原位还原为 Cu/Cu₂₊₁O
+- [[paper17-cu2o-facet-pvp-control]] — PVP Mw 30,000 系统调控 R 从 0→30 实现 cube→octahedron，Paper 7 的合成源方法
