@@ -105,3 +105,11 @@
 - Index updated: added Paper 16; refreshed page count to 22
 - Cross-links: [[paper13-cpd-cnt-cu-composite-interface]], [[carbon-nanotubes-in-cu-electrocatalysis]]
 
+## [2026-07-06] ingest | Paper 17: Cu₂O facet control by PVP (J. Mater. Chem., 2009)
+- Source: Dong-Feng Zhang et al., J. Mater. Chem. 2009, 19, 5220–5225; DOI 10.1039/b816349a
+- Raw source captured: raw/papers/paper17-jmatchem-2009-cu2o-facet-pvp.md
+- Entity page created: entities/paper17-cu2o-facet-pvp-control.md
+- Concept pages updated: cu2o-morphology-control.md (added Paper 17 row + cross-ref)
+- Index updated: added Paper 17; page count → 23
+- Cross-links: [[cu2o-facet-engineering]], [[cu2o-morphology-control]], [[paper7-hydrogen-spillover-raman]]
+- Note: Paper 7 的 Cu₂O 合成方法来源于本文（ref 60/61）；PVP Mw=30,000 在 R=30 得到 octahedron
