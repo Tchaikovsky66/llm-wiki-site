@@ -1,7 +1,7 @@
 ---
 title: "In situ Raman spectroscopic insight of hydrogen spillover in electrocatalytic hydrogenation"
 created: 2026-05-24
-updated: 2026-05-24
+updated: 2026-07-06
 type: entity
 tags: [copper-oxide, facet-engineering, pec-measurement, hydrogen-evolution, charge-transfer, dft, xrd, sem, tem]
 sources: [raw/papers/paper7-jacs-2026-hydrogen-spillover-raman.md, raw/papers/paper7-si-jacs-2026-hydrogen-spillover-raman.md]
@@ -19,7 +19,7 @@ sources: [raw/papers/paper7-jacs-2026-hydrogen-spillover-raman.md, raw/papers/pa
 
 ## Catalyst construction and structural evidence
 
-- **Cu₂O 前驱体晶面:** SI 中给出湿化学还原路线：PVP=4 g 得到八面体 Cu₂O，PVP=0 g 得到立方体 Cu₂O；SEM/XRD 见 Figure S1。
+- **Cu₂O 前驱体晶面:** SI 中给出湿化学还原路线：PVP=4 g 得到八面体 Cu₂O，PVP=0 g 得到立方体 Cu₂O；SEM/XRD 见 Figure S1。该方法引自 ref 60 即 [[paper17-cu2o-facet-pvp-control]]（Zhang et al., J. Mater. Chem. 2009），据此推断 **PVP Mw = 30,000**（Paper 17 明确证明只有 Mw 30,000 在高 R 值时才能得到纯八面体；Mw 58,000/630,000 只得截半立方体）。4 g PVP 对应 R = (4/111)/0.001 ≈ 36（略高于 Paper 17 的 R=30），合理得到八面体。
 - **Ru 单原子引入:** Cu₂O 浸泡 RuCl₃ 溶液 10 min；Ru 含量通过 0.5–50 μM RuCl₃ 调控。电化学测试前在 0.5 M Na₂SO₄、−0.6 V vs RHE 还原 30 min，得到 Ru₁/Cu(111) 与 Ru₁/Cu(100)。
 - **结构证据:** HAADF-STEM/EDS 显示 Ru 分散；Ru K-edge XANES/EXAFS 证明 Ru 处于氧化态并具有 Ru–O/Ru–Cu 配位。SI Table S1 给出 Ru₁/Cu(111) 的 Ru–Cu CN≈1.0、Ru₁/Cu(100) 的 Ru–Cu CN≈2.0，作者说明较低金属配位数与空气暴露后的表面氧化有关。
 - **相转变:** in situ Cu K-edge XAFS 证明 Ru-doped Cu₂O 在电还原过程中逐渐转为金属 Cu；XRD 未见残余 Cu₂O，相当于用 Cu₂O 形貌/晶面作前驱模板。
@@ -67,5 +67,6 @@ sources: [raw/papers/paper7-jacs-2026-hydrogen-spillover-raman.md, raw/papers/pa
 
 - [[cu2o-facet-engineering]] — Cu₂O 前驱体晶面控制与晶面效应
 - [[cu2o-morphology-control]] — Cu₂O 立方体/八面体湿化学形貌控制
+- [[paper17-cu2o-facet-pvp-control]] — 本文 Cu₂O 合成方法的源文献（ref 60），明确 PVP Mw=30,000 + R=30 得八面体
 - [[paper6-p-cu-fe2o3-urea-electrosynthesis]] — *H 覆盖与含氮中间体氢化在尿素电合成中的作用
 - [[co2-nitrate-urea-electrosynthesis]] — NO₃⁻/含氮中间体氢化与 C–N 反应网络中的 *H 角色
