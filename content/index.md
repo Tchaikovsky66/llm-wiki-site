@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-07-06 | Total pages: 23
+> Last updated: 2026-07-12 | Total pages: 24
 
 ## Entities
 
@@ -22,6 +22,7 @@
 - [[paper15-pd-ni5p4-quinoline-hydrogenation-patent]] — Pd/Ni₅P₄ 缺陷纳米片用于酸性条件下喹啉电催化加氢制 THQs (中国专利 CN118854361A, 2024)
 - [[paper16-cnt-cu-composites-review]] — CNTs/Cu 复合材料力学·电学·热学强化机制综述：分散/构型/界面/权衡策略 (J. Mater. Res. Technol., 2024)
 - [[paper17-cu2o-facet-pvp-control]] — PVP (Mw 30,000) 选择性吸附调控 Cu₂O 晶面：R=0 cube → R=30 octahedron (J. Mater. Chem., 2009)
+- [[paper18-iodine-cu-heterointerface-co2rr-c2h4]] — CuI/CHN 衍生富晶界 B-Cu-Cu₂O(I)，碘界面限域稳定 Cuδ⁺，CO₂RR C₂H₄ FE 61% @ −250 mA cm⁻² (ACS Catal., 2026)
 
 ## Concepts
 

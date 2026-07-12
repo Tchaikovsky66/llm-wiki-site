@@ -113,3 +113,12 @@
 - Index updated: added Paper 17; page count → 23
 - Cross-links: [[cu2o-facet-engineering]], [[cu2o-morphology-control]], [[paper7-hydrogen-spillover-raman]]
 - Note: Paper 7 的 Cu₂O 合成方法来源于本文（ref 60/61）；PVP Mw=30,000 在 R=30 得到 octahedron
+
+## [2026-07-12] ingest | Iodine-Modified Cu Heterointerface for CO₂-to-C₂H₄ (ACS Catal. 2026)
+- Source: Yang et al., ACS Catal. 2026, DOI: 10.1021/acscatal.6c03153
+- Raw source captured: raw/papers/paper18-acscatal-2026-iodine-cu-heterointerface-co2rr-c2h4.md
+- Entity page created: entities/paper18-iodine-cu-heterointerface-co2rr-c2h4.md
+- Concept pages updated: co2-electroreduction-cu-catalysts.md (added Paper 18 row + halogen route section), copper-oxide-organic-electrosynthesis.md (added cross-ref to iodine/PANI parallel)
+- SCHEMA.md updated: added `halogen-modification` tag
+- Index updated: added Paper 18; page count → 24
+- Cross-links: [[co2-electroreduction-cu-catalysts]], [[paper5-strain-cu2o-co2rr-ethylene]], [[paper2-cuo-co2rr-morphology]], [[copper-oxide-organic-electrosynthesis]], [[paper12-cu-cu2o-quinoline-hydrogenation]], [[paper14-cuo-pani-nitrate-ammonia]]

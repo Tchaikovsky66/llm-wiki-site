@@ -1,7 +1,7 @@
 ---
 title: Copper oxide interfaces in organic electrosynthesis
 created: 2026-06-03
-updated: 2026-06-08
+updated: 2026-07-12
 type: concept
 tags: [copper-oxide, heterojunction, nanostructure, xps, impedance, faradaic-efficiency, charge-transfer, dft, organic-electrosynthesis, electrochemical-hydrogenation]
 sources: [raw/papers/paper12-afm-2025-cu-cu2o-quinoline-hydrogenation.md, raw/papers/paper13-elsevier-2026-cnt-cu-catalysis.md, raw/papers/paper14-apcatb-2023-cuo-pani-nitrate-ammonia.md, raw/papers/paper15-patent-cn118854361-pd-ni5p4-quinoline-hydrogenation.md]
@@ -32,6 +32,7 @@ sources: [raw/papers/paper12-afm-2025-cu-cu2o-quinoline-hydrogenation.md, raw/pa
 ## Relation to other copper-oxide concepts
 
 - 与 [[co2-electroreduction-cu-catalysts]] 的共同点：Cu⁰/Cu⁺界面和电化学重构都能调控反应中间体吸附与选择性。
+- 与 [[paper18-iodine-cu-heterointerface-co2rr-c2h4]] 的共同点：碘通过 Cu-I 配位稳定 Cu⁺ 的逻辑与 PANI 通过 Cu-N 配位稳定 Cu⁺ 完全平行，均为"修饰剂界面限域→活性位稳定→选择性提升"。
 - 与 [[cu2o-morphology-control]] 的共同点：前驱体形貌和还原条件决定最终 Cu/Cu₂O 微结构、晶面残留和活性位点可及性。
 - 与 [[paper7-hydrogen-spillover-raman]] 的共同点：都把活性氢/H* 作为决定还原反应动力学的关键变量，但表征对象和反应底物不同。
 - 与 [[carbon-nanotubes-in-cu-electrocatalysis]] 的共同点：CNT/碳界面可作为电子传输、Cu⁺稳定和 H*迁移的耦合调控变量。
