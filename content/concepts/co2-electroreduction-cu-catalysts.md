@@ -23,6 +23,7 @@ Cu 基氧化物在 CO₂RR 中通常不是静态保持原始氧化物结构，�
 | [[paper2-cuo-co2rr-morphology]] | CuO 纳米棒/片/颗粒 | pH 导向形貌调控，反应中形成 Cu⁰/Cu⁺ 界面 | R-CuO 在 500 mA cm⁻² 下 C₂₊ FE 达 84.0%，表面保留丰富 Cu⁺ |
 || [[paper5-strain-cu2o-co2rr-ethylene]] | 应变 Cu₂O | 原位预还原引入氧空位和 17.6% 晶格应变 | 800 mA cm⁻² 下 C₂H₄ FE 达 76.97%，乙烯分电流 615.7 mA cm⁻² |
 || [[paper18-iodine-cu-heterointerface-co2rr-c2h4]] | B-Cu-Cu₂O(I)：CuI/CHN 衍生富晶界 Cu/Cu₂O，碘界面限域 | 碘稳定欠配位 Cuδ⁺（CN=5.9），增强 *CO 留存，降低 C–C 偶联能垒 | Flow cell −250 mA cm⁻² 下 C₂⁺ FE 79.5%（C₂H₄ 60.6%），稳定 18.5 h |
+|| [[paper19-bct-cu-nanowires-co2rr-c2plus]] | bct/fcc 异质相 Cu NWs（五重孪晶应变） | 内应变驱动 fcc→bct 相变，d-band 上移，降低 C–C 偶联和 *CO→*CHO RDS 能垒 | H-cell −1.15 V 下 C₂⁺ FE 80.2%（C₂H₄ 56.1%），C₂⁺/C₁=14.9 |
 | [[paper6-p-cu-fe2o3-urea-electrosynthesis]] | P−Cu/Fe₂O₃ | Cu 位点生成 *CO，Fe 位点生成 *NO，P 掺杂增强 *H 覆盖并促进 C–N 偶联 | 尿素 FE 73.81%，−0.68 V vs RHE 下产率 62.74 mmol h⁻¹ gcat⁻¹ |
 
 ## Mechanistic pattern
@@ -48,6 +49,10 @@ CuO/Cu₂O 前驱体
 
 [[paper18-iodine-cu-heterointerface-co2rr-c2h4]] 提出"界面限域碘"策略：CuI/CHN 复合前驱体经原位还原形成富晶界 Cu/Cu₂O 异质结构，晶界物理限域碘物种防止流失。碘通过 Cu-I 配位稳定 Cuδ⁺（EXAFS 测得 CN=5.9，远低于 bulk Cu 的 12），使 d-band center 上移至 −2.14 eV，*CO 吸附能达 −1.87 eV，*OCCO 形成为放热（−0.17 eV）。该策略独立于应变或氧空位机制，直接通过化学配位稳定亚稳态 Cu⁺。
 
+### Unconventional crystal phase (bct) route
+
+[[paper19-bct-cu-nanowires-co2rr-c2plus]] 揭示五重孪晶 Cu NWs 内部因填充 7.35° 固体角缺陷而产生的压/拉应变，在中心和近表面区域驱动 fcc→bct 相变。bct 相使 d-band 上移（UPS 实测 −3.493 eV vs fcc NCs −3.739 eV），功函数降低（4.58 vs 4.75 eV），DFT 显示 *CO→*CHO RDS 能垒从 0.66 降至 0.38 eV，C–C 偶联能垒从 0.38 降至 0.20 eV。该策略不依赖氧化物或杂原子，纯粹通过晶格应变改变金属 Cu 的电子态。
+
 ## Design rules
 
 - **形貌不是最终活性结构，但会决定重构路径。** CuO 纳米棒、纳米片、纳米颗粒的差异会转化为不同 Cu⁰/Cu⁺ 界面丰度。
@@ -65,6 +70,7 @@ CuO/Cu₂O 前驱体
 - [[paper2-cuo-co2rr-morphology]] — CuO 形貌调控与 Cu⁰/Cu⁺ 界面
 - [[paper5-strain-cu2o-co2rr-ethylene]] — 应变 Cu₂O 提高 *CO 覆盖度制乙烯
 - [[paper18-iodine-cu-heterointerface-co2rr-c2h4]] — 碘界面限域稳定 Cuδ⁺，促进 C–C 偶联制乙烯
+- [[paper19-bct-cu-nanowires-co2rr-c2plus]] — 五重孪晶应变驱动 bct 相变，纯金属态 Cu 实现 80% C₂⁺ FE
 - [[paper6-p-cu-fe2o3-urea-electrosynthesis]] — P−Cu/Fe₂O₃ 中 Cu 位点参与 CO₂→*CO，用于 C–N 产物尿素合成
 - [[co2-nitrate-urea-electrosynthesis]] — CO₂/NO₃⁻ 共还原合成尿素的跨体系设计逻辑
 - [[cu2o-facet-engineering]] — Cu₂O 晶面/应变工程

@@ -122,3 +122,11 @@
 - SCHEMA.md updated: added `halogen-modification` tag
 - Index updated: added Paper 18; page count → 24
 - Cross-links: [[co2-electroreduction-cu-catalysts]], [[paper5-strain-cu2o-co2rr-ethylene]], [[paper2-cuo-co2rr-morphology]], [[copper-oxide-organic-electrosynthesis]], [[paper12-cu-cu2o-quinoline-hydrogenation]], [[paper14-cuo-pani-nitrate-ammonia]]
+
+## [2026-07-12] ingest | BCT Phase Cu Nanowires for CO₂RR to C₂⁺ (Adv. Mater. 2026)
+- Source: Wang, Ma, Sun et al., Adv. Mater. 2026, 38, e73600, DOI: 10.1002/adma.73600
+- Raw source captured: raw/papers/paper19-advmat-2026-bct-cu-nanowires-co2rr-c2plus.md
+- Entity page created: entities/paper19-bct-cu-nanowires-co2rr-c2plus.md
+- Concept pages updated: co2-electroreduction-cu-catalysts.md (added Paper 19 row + bct route section + cross-ref)
+- Index updated: added Paper 19; page count → 25
+- Cross-links: [[co2-electroreduction-cu-catalysts]], [[paper5-strain-cu2o-co2rr-ethylene]], [[paper18-iodine-cu-heterointerface-co2rr-c2h4]], [[copper-oxide-organic-electrosynthesis]], [[paper12-cu-cu2o-quinoline-hydrogenation]], [[cu2o-facet-engineering]]

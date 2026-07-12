@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-07-12 | Total pages: 24
+> Last updated: 2026-07-12 | Total pages: 25
 
 ## Entities
 
@@ -23,6 +23,7 @@
 - [[paper16-cnt-cu-composites-review]] — CNTs/Cu 复合材料力学·电学·热学强化机制综述：分散/构型/界面/权衡策略 (J. Mater. Res. Technol., 2024)
 - [[paper17-cu2o-facet-pvp-control]] — PVP (Mw 30,000) 选择性吸附调控 Cu₂O 晶面：R=0 cube → R=30 octahedron (J. Mater. Chem., 2009)
 - [[paper18-iodine-cu-heterointerface-co2rr-c2h4]] — CuI/CHN 衍生富晶界 B-Cu-Cu₂O(I)，碘界面限域稳定 Cuδ⁺，CO₂RR C₂H₄ FE 61% @ −250 mA cm⁻² (ACS Catal., 2026)
+- [[paper19-bct-cu-nanowires-co2rr-c2plus]] — 五重孪晶 Cu NWs 内应变驱动 fcc→bct 相变，C₂⁺ FE 80.2% @ −1.15 V (Adv. Mater., 2026)
 
 ## Concepts
 
