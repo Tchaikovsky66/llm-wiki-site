@@ -1,4 +1,4 @@
-## Page 1
+--- Page 1 ---
 http://pubs.acs.org/journal/aelccp Letter
 Ternary Facet Junction Engineered Cu O Photocathode for Efficient
 2
@@ -92,7 +92,7 @@ rof
 senilediuggnirahs/gro.sca.sbup//:sptth
 eeS
 
-## Page 2
+--- Page 2 ---
 ACS Energy Letters http://pubs.acs.org/journal/aelccp Letter
 Figure1.(a)SEMimagesandcorrespondinggeometricaldiagramsoffivedifferentCuOcatalysts;TEMimagesof(b)CuO-cand(c)CuO-o;
 2 2 2
@@ -145,7 +145,7 @@ cascade band alignments that enable spatial charge separation principles, the tr
 3854 https://doi.org/10.1021/acsenergylett.6c00152
 ACSEnergyLett.2026,11,3853−3860
 
-## Page 3
+--- Page 3 ---
 ACS Energy Letters http://pubs.acs.org/journal/aelccp Letter
 Figure2.(a)UV−visandTaucplot(illustration)forCuO-c,CuO-ecto,andCuO-o;(b)UPSvaluebandofCuO-c,CuO-ecto,andCuO-o;
 2 2 2 2 2 2
@@ -206,7 +206,7 @@ Cu O-ecto possesses the most negative conduction band and function{111}facetsunt
 3855 https://doi.org/10.1021/acsenergylett.6c00152
 ACSEnergyLett.2026,11,3853−3860
 
-## Page 4
+--- Page 4 ---
 ACS Energy Letters http://pubs.acs.org/journal/aelccp Letter
 Figure3.(a)SurfacechargeseparationefficiencyoftheCuO-ectocatalyst;(b)theapparentcarrierdensitiesand(c)theappliedbiasphoton-to-
 2
@@ -270,7 +270,7 @@ Based on this method, an average charge transfer efficiency of Moreover, we syst
 3856 https://doi.org/10.1021/acsenergylett.6c00152
 ACSEnergyLett.2026,11,3853−3860
 
-## Page 5
+--- Page 5 ---
 ACS Energy Letters http://pubs.acs.org/journal/aelccp Letter
 Figure4.(a)LSVcurvesunderArdark/lightandCO dark/lightforCuO-ecto;(b)ureaFEandformationrateoffivedifferentCuOcatalystsat
 2 2 2
@@ -312,7 +312,7 @@ forureasynthesiswasoptimized.AsdisplayedinFigure4c,the photocatalysis, respectiv
 3857 https://doi.org/10.1021/acsenergylett.6c00152
 ACSEnergyLett.2026,11,3853−3860
 
-## Page 6
+--- Page 6 ---
 ACS Energy Letters http://pubs.acs.org/journal/aelccp Letter
 of photogenerated carriers and applied bias (Figure S28). significantlypromotestheseparationanddirectionalmigration
 Control experiments confirm that CO or NO − are the sole of photogenerated charge carriers. This, in turn, facilitates
@@ -424,7 +424,7 @@ electric field and a cascade charge transfer pathway, which draft. Min Li: Conce
 3858 https://doi.org/10.1021/acsenergylett.6c00152
 ACSEnergyLett.2026,11,3853−3860
 
-## Page 7
+--- Page 7 ---
 ACS Energy Letters http://pubs.acs.org/journal/aelccp Letter
 administration, Resources, Supervision, Writing−review and (12)Kim,C.;King,A.J.;Aloni,S.;Toma,F.M.;Weber,A.Z.;Bell,
 editing. Zhiheng Li: Data curation, Visualization. Xiaowen A. T. Codesign of an integrated metal-insulator-semiconductor
@@ -523,7 +523,7 @@ photocathodes for carbon dioxide (CO) conversion. Green Chem. and Revelation of 
 3859 https://doi.org/10.1021/acsenergylett.6c00152
 ACSEnergyLett.2026,11,3853−3860
 
-## Page 8
+--- Page 8 ---
 ACS Energy Letters http://pubs.acs.org/journal/aelccp Letter
 (30) Chen, B.-H.; Kumar, G.; Wei, Y.-J.; Ma, H.-H.; Kao, J.-C.;
 Chou,P.-J.;Chuang,Y.-C.;Chen,I.-C.;Chou,J.-P.;Lo,Y.-C.;Huang,
