@@ -24,12 +24,12 @@ sources: [raw/papers/source-name.md]
 ```
 
 ## Tag Taxonomy
-- Materials: cu2o, cuo, copper-oxide, copper-composite, carbon-nanotube, heterojunction, thin-film, nanostructure
-- Fabrication: electrodeposition, sputtering, annealing, morphology-control, facet-engineering, interface-engineering, halogen-modification
-- Characterization: xrd, sem, tem, xps, uv-vis, pec-measurement, impedance
-- Performance: photocurrent, stability, faradaic-efficiency, hydrogen-evolution, ammonia-electrosynthesis, nitrate-reduction, organic-electrosynthesis, electrochemical-hydrogenation
+- Materials: cu2o, cuo, copper-oxide, copper-composite, carbon-nanotube, sno2, heterojunction, thin-film, nanostructure
+- Fabrication: electrodeposition, sputtering, annealing, morphology-control, facet-engineering, interface-engineering, halogen-modification, heteroatom-doping
+- Characterization: xrd, sem, tem, xps, uv-vis, pec-measurement, impedance, operando-spectroscopy
+- Performance: photocurrent, stability, faradaic-efficiency, hydrogen-evolution, ammonia-electrosynthesis, nitrate-reduction, co2-reduction, organic-electrosynthesis, electrochemical-hydrogenation
 - Device: photocathode, photoanode, protection-layer, cocatalyst, tandem-cell
-- Theory: band-structure, charge-transfer, dft, surface-energy
+- Theory: band-structure, charge-transfer, dft, surface-energy, interfacial-water, pcet
 - Meta: comparison, review, timeline
 
 Rule: every tag on a page must appear in this taxonomy. If a new tag is needed,
