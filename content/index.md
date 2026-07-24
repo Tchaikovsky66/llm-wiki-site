@@ -1,7 +1,7 @@
 # Wiki Index
 
 > Content catalog. Every wiki page listed under its type with a one-line summary.
-> Last updated: 2026-07-12 | Total pages: 25
+> Last updated: 2026-07-24 | Total pages: 27
 
 ## Entities
 
@@ -24,6 +24,7 @@
 - [[paper17-cu2o-facet-pvp-control]] — PVP (Mw 30,000) 选择性吸附调控 Cu₂O 晶面：R=0 cube → R=30 octahedron (J. Mater. Chem., 2009)
 - [[paper18-iodine-cu-heterointerface-co2rr-c2h4]] — CuI/CHN 衍生富晶界 B-Cu-Cu₂O(I)，碘界面限域稳定 Cuδ⁺，CO₂RR C₂H₄ FE 61% @ −250 mA cm⁻² (ACS Catal., 2026)
 - [[paper19-bct-cu-nanowires-co2rr-c2plus]] — 五重孪晶 Cu NWs 内应变驱动 fcc→bct 相变，C₂⁺ FE 80.2% @ −1.15 V (Adv. Mater., 2026)
+- [[paper20-s-sno2-interfacial-water-co2rr-formate]] — S 掺杂 SnO₂ 重构无序但 H-down 富集的界面水，以局部质子输送加速 CO₂→甲酸盐 PCET (JACS, 2026)
 
 ## Concepts
 
@@ -31,6 +32,7 @@
 - [[co2-nitrate-urea-electrosynthesis]] — CO₂/NO₃⁻ 共还原合成尿素：PEC 晶面结与多位点电催化两类策略
 - [[cu2o-facet-engineering]] — Cu₂O 晶面/应变工程：晶面类型、合成策略、应用领域
 - [[cu2o-morphology-control]] — Cu₂O/CuO 形貌调控方法汇总
+- [[interfacial-water-pcet-electrocatalysis]] — 界面水氢键连接、H-down 取向与 PCET/HER 竞争；连接 SnO₂、Cu/Cu₂O、PANI 和氢溢流证据
 - [[carbon-nanotubes-in-cu-electrocatalysis]] — CNT 在 Cu 基电催化/催化加氢中的导电骨架、界面稳定、H*调控与电极工程价值
 - [[copper-oxide-organic-electrosynthesis]] — 铜氧化物/金属铜界面用于有机电合成：Cu⁰/Cu⁺动态界面、水活化/H* 与阳极有机氧化联产
 

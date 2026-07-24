@@ -1,10 +1,10 @@
 ---
 title: Copper oxide interfaces in organic electrosynthesis
 created: 2026-06-03
-updated: 2026-07-12
+updated: 2026-07-24
 type: concept
 tags: [copper-oxide, heterojunction, nanostructure, xps, impedance, faradaic-efficiency, charge-transfer, dft, organic-electrosynthesis, electrochemical-hydrogenation]
-sources: [raw/papers/paper12-afm-2025-cu-cu2o-quinoline-hydrogenation.md, raw/papers/paper13-elsevier-2026-cnt-cu-catalysis.md, raw/papers/paper14-apcatb-2023-cuo-pani-nitrate-ammonia.md, raw/papers/paper15-patent-cn118854361-pd-ni5p4-quinoline-hydrogenation.md]
+sources: [raw/papers/paper12-afm-2025-cu-cu2o-quinoline-hydrogenation.md, raw/papers/paper13-elsevier-2026-cnt-cu-catalysis.md, raw/papers/paper14-apcatb-2023-cuo-pani-nitrate-ammonia.md, raw/papers/paper15-patent-cn118854361-pd-ni5p4-quinoline-hydrogenation.md, raw/papers/paper20-jacs-2026-heteroatom-doping-interfacial-water-sno2-formate.md]
 ---
 
 # 铜氧化物/金属铜界面用于有机电合成
@@ -40,6 +40,12 @@ sources: [raw/papers/paper12-afm-2025-cu-cu2o-quinoline-hydrogenation.md, raw/pa
 ## Caution
 
 有机电化学氢化中的"Cu⁰/Cu⁺双位点"需要用 Cu LMM/Auger、反应后/准原位表征、毒化实验和 DFT 共同支撑；仅凭 Cu 2p 主峰不能可靠区分 Cu⁰ 与 Cu⁺。
+
+## 界面水：从“活性氢存在”推进到“质子如何被定向输送”
+
+[[paper20-s-sno2-interfacial-water-co2rr-formate]] 在 S-SnO₂ 上证明，材料改性除了改变固体电子结构和中间体吸附，还能重排液体侧界面水：氢键连接被打散、H-down 取向增加、水解离和局部 PCET 加快。这个结果不能直接证明 PANI–Cu₂O 具有相同水结构，但为本页的喹啉 ECH 增加了一个可检验变量：PANI 的 Cu–N 配位与胺/亚胺基团是否同时改变 [[interfacial-water-pcet-electrocatalysis]]，从而把 H* 更有效地送给喹啉而非形成 H₂。
+
+对用户体系，建议把两条证据链并行设计：① Cu LMM/XANES 证明 PANI 是否稳定 Cu⁺；② operando O–H 光谱、H₂O/D₂O KIE、H*捕获和 H₂定量证明 PANI 是否重构界面质子输送。只有二者与 THQ 速率/FE 的修饰量趋势相互对应，才能区分“稳定 Cu⁺”和“重构界面水”的相对贡献。
 
 ## PANI 有机聚合物修饰策略
 

@@ -2,10 +2,10 @@
 title: Cu-based Catalysts for CO₂ Electroreduction
 author: 
 created: 2026-05-17
-updated: 2026-07-12
+updated: 2026-07-24
 type: concept
 tags: [copper-oxide, cu2o, cuo, morphology-control, facet-engineering, faradaic-efficiency, charge-transfer, dft]
-sources: [raw/papers/paper12-afm-2025-cu-cu2o-quinoline-hydrogenation.md, raw/papers/paper2-chen-cuo-morphology-afm-2026.md, raw/papers/paper2-si-cuo-morphology-afm-2026.md, raw/papers/paper5-aem-2025-strain-cu2o-co2rr.md, raw/papers/paper5-si-aem-2025-strain-cu2o-co2rr.md, raw/papers/paper6-phosphorus-doped-cu-fe2o3-urea.md, raw/papers/paper6-si-phosphorus-doped-cu-fe2o3-urea.md, raw/papers/paper18-acscatal-2026-iodine-cu-heterointerface-co2rr-c2h4.md]
+sources: [raw/papers/paper12-afm-2025-cu-cu2o-quinoline-hydrogenation.md, raw/papers/paper2-chen-cuo-morphology-afm-2026.md, raw/papers/paper2-si-cuo-morphology-afm-2026.md, raw/papers/paper5-aem-2025-strain-cu2o-co2rr.md, raw/papers/paper5-si-aem-2025-strain-cu2o-co2rr.md, raw/papers/paper6-phosphorus-doped-cu-fe2o3-urea.md, raw/papers/paper6-si-phosphorus-doped-cu-fe2o3-urea.md, raw/papers/paper18-acscatal-2026-iodine-cu-heterointerface-co2rr-c2h4.md, raw/papers/paper20-jacs-2026-heteroatom-doping-interfacial-water-sno2-formate.md]
 ---
 
 # Cu 基催化剂用于 CO₂ 电还原
@@ -65,6 +65,10 @@ CuO/Cu₂O 前驱体
 
 [[paper12-cu-cu2o-quinoline-hydrogenation]] 不做 CO₂RR，但它对 Cu⁰/Cu⁺动态界面的理解很有参考价值：CuO/Cu(OH)₂ 前驱体经电化学还原形成 Cu/Cu₂O nanowires，Cu⁺促进 quinoline 与水活化，Cu⁰调节 H* 结合并抑制 HER 竞争。该文也提醒：Cu 2p 难以区分 Cu⁰/Cu⁺，需要 Cu LMM/Auger、O 1s、毒化和反应后表征共同判断。
 
+## SnO₂ 界面水参照：补上“液体侧描述符”
+
+[[paper20-s-sno2-interfacial-water-co2rr-formate]] 不是 Cu 催化剂，但对本页所有 Cu 基策略提供了重要校正：中间体吸附、d-band、Cu⁺比例或应变并不一定足以预测活性；催化剂对 [[interfacial-water-pcet-electrocatalysis]] 的重构可能决定 PCET 的实际速率。Paper 20 中 P-SnO₂ 的静态吸附/电子结构描述符优于 S-SnO₂，却没有更高活性；S-SnO₂ 通过 H-down 富集的界面水实现更高甲酸盐选择性。对 Cu 基 CO₂RR 与喹啉 ECH，应把“固体表面描述符”与“界面溶剂/质子输送描述符”并列考虑，而不是互相替代。
+
 ## Cross-references
 
 - [[paper2-cuo-co2rr-morphology]] — CuO 形貌调控与 Cu⁰/Cu⁺ 界面
@@ -73,5 +77,7 @@ CuO/Cu₂O 前驱体
 - [[paper19-bct-cu-nanowires-co2rr-c2plus]] — 五重孪晶应变驱动 bct 相变，纯金属态 Cu 实现 80% C₂⁺ FE
 - [[paper6-p-cu-fe2o3-urea-electrosynthesis]] — P−Cu/Fe₂O₃ 中 Cu 位点参与 CO₂→*CO，用于 C–N 产物尿素合成
 - [[co2-nitrate-urea-electrosynthesis]] — CO₂/NO₃⁻ 共还原合成尿素的跨体系设计逻辑
+- [[paper20-s-sno2-interfacial-water-co2rr-formate]] — SnO₂ 非金属掺杂重构界面水，为 Cu 基 PCET 提供液体侧参照
+- [[interfacial-water-pcet-electrocatalysis]] — 界面水结构、质子输送与 HER 竞争
 - [[cu2o-facet-engineering]] — Cu₂O 晶面/应变工程
 - [[cu2o-morphology-control]] — Cu₂O/CuO 形貌调控

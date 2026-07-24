@@ -130,3 +130,16 @@
 - Concept pages updated: co2-electroreduction-cu-catalysts.md (added Paper 19 row + bct route section + cross-ref)
 - Index updated: added Paper 19; page count → 25
 - Cross-links: [[co2-electroreduction-cu-catalysts]], [[paper5-strain-cu2o-co2rr-ethylene]], [[paper18-iodine-cu-heterointerface-co2rr-c2h4]], [[copper-oxide-organic-electrosynthesis]], [[paper12-cu-cu2o-quinoline-hydrogenation]], [[cu2o-facet-engineering]]
+
+## [2026-07-24] ingest | Paper 20: S-doped SnO₂ restructures interfacial H₂O for CO₂-to-formate
+- Source: Liu et al., JACS 2026, DOI 10.1021/jacs.6c08293
+- Duplicate check: title/DOI were absent from the current wiki; earlier session attempts had analyzed the paper but writing was blocked, so this is the first completed ingest
+- Raw source captured: raw/papers/paper20-jacs-2026-heteroatom-doping-interfacial-water-sno2-formate.md
+- Entity page created: entities/paper20-s-sno2-interfacial-water-co2rr-formate.md
+- Concept page created: concepts/interfacial-water-pcet-electrocatalysis.md
+- Concept pages updated: concepts/copper-oxide-organic-electrosynthesis.md, concepts/co2-electroreduction-cu-catalysts.md
+- SCHEMA.md updated with sno2, heteroatom-doping, operando-spectroscopy, co2-reduction, interfacial-water and pcet tags
+- Index updated: added Paper 20 and interfacial-water/PCET concept; total pages 27
+- Main mechanistic result: S-SnO₂ stabilizes connectivity-disrupted but H-down-rich interfacial water, lowering calculated H₂O dissociation barrier to 0.009 eV and enabling locally buffered PCET to formate despite less favorable static intermediate descriptors than P-SnO₂
+- Transfer to Cu project: formulated testable PANI–Cu₂O hypotheses separating Cu⁺ stabilization from interface-water/proton-delivery effects; linked Paper 12, Paper 14, Paper 7 and Paper 18
+- SI status: historical SI upload was found in session records, but the cached SI file is no longer present; no SI content was fabricated or claimed as ingested
